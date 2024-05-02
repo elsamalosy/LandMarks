@@ -7,7 +7,7 @@ import pandas as pd
 from geopy.geocoders import Nominatim
 
 model_url = 'https://tfhub.dev/google/on_device_vision/classifier/landmarks_classifier_africa_V1/1'
-labels = 'landmarks_classifier_africa_V1_label_map.csv'
+labels = 'landmarks_classifier_egypt_V1_label_map.csv'
 df = pd.read_csv(labels)
 labels = dict(zip(df.id, df.name))
 
