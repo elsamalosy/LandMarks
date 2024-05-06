@@ -4,6 +4,5 @@ tensorflow-hub==0.16.1
 tensorflow-io-gcs-filesystem==0.34.0
 tensorflow_decision_forests==1.9.0
 tensorflowjs==4.19.0
-
-
-
+geographiclib==2.0
+geopy==2.4.1
