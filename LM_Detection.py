@@ -35,7 +35,7 @@ def landmark_recognition():
         location = geolocator.geocode(loc)
         return location.address, location.latitude, location.longitude
     
-    st.title("Landmark Recognition")
+    st.title("Landmarks Recognition")
     img = PIL.Image.open('logo.png')
     img = img.resize((256,256))
     st.image(img)
